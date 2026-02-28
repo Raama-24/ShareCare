@@ -35,7 +35,7 @@ export default function Home() {
 
             <div className="inline-block px-4 py-2 bg-[#689F38] rounded-full mb-6">
               <span className="text-sm font-semibold text-white">
-                Share your Food, Share your Love.
+                Share your Items, Share your Love.
               </span>
             </div>
 

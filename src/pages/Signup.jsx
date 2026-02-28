@@ -31,16 +31,16 @@ export default function SignUp() {
   const roles = [
     {
       id: "donor",
-      title: "Food Donor",
-      description: "Post surplus food and help reduce waste",
+      title: "Donor ",
+      description: "Post surplus items and help reduce waste",
       icon: Heart,
       color: "bg-[#F1F8E9]",
       textColor: "text-[#689F38]",
     },
     {
       id: "volunteer",
-      title: "Volunteer",
-      description: "Pick up and deliver food to communities",
+      title: "Receiver",
+      description: "Pick up and deliver items",
       icon: Users,
       color: "bg-[#F1F8E9]",
       textColor: "text-[#689F38]",
@@ -117,7 +117,7 @@ export default function SignUp() {
             <div>
               <div className="text-center mb-12">
                 <h1 className="text-4xl md:text-5xl font-black text-[#263238] mb-4">
-                  Join FoodShare
+                  Join ShareCare
                 </h1>
                 <p className="text-lg text-[#263238]/70">
                   Choose your role to get started

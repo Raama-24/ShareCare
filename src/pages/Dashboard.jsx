@@ -195,7 +195,7 @@ export default function Dashboard() {
               Post New Donation
             </h2>
             <p className="text-muted-foreground mb-6">
-              Share your surplus food with verified volunteers
+              Share your surplus items with verified volunteers
             </p>
             <Link
               to="/post-donation"
@@ -288,7 +288,7 @@ export default function Dashboard() {
                   Welcome back, {user?.name || "User"}!
                 </h1>
                 <p className="text-[#263238]/70">
-                  Manage your food donations and track volunteer pickups
+                  Manage your donations and track volunteer pickups
                 </p>
               </div>
 

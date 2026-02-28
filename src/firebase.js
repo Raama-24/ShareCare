@@ -3,17 +3,20 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
+import { enableNetwork } from "firebase/firestore";
 
 const firebaseConfig = {
- apiKey: "AIzaSyD60x51QSySV6k6K-FTVg11UtMw5OyuETA",
-  authDomain: "foodshare-ab2a4.firebaseapp.com",
-  projectId: "foodshare-ab2a4",
-  storageBucket: "foodshare-ab2a4.firebasestorage.app",
-  messagingSenderId: "174190943132",
-  appId: "1:174190943132:web:4455b86aa7262a635f4659"
+ apiKey: "AIzaSyDhBXw6sRMWQ81t9lC3foZznLmeWi3fzYg",
+  authDomain: "sharecare-945cb.firebaseapp.com",
+  projectId: "sharecare-945cb",
+  storageBucket: "sharecare-945cb.firebasestorage.app",
+  messagingSenderId: "905830961306",
+  appId: "1:905830961306:web:c8932dc9e20d5a24980f23"
 };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const storage = getStorage(app);
+// 👇 FORCE FIRESTORE BACK ONLINE
+enableNetwork(db).catch(console.error);

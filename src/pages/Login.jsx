@@ -84,7 +84,7 @@ if (!userData.verified) {
           <div className="max-w-md mx-auto">
             <div className="text-center mb-8">
               <h1 className="text-3xl font-bold text-[#795548] mb-2">Welcome Back</h1>
-              <p className="text-[#263238]/70">Sign in to your FoodShare account</p>
+              <p className="text-[#263238]/70">Sign in to your ShareCare account</p>
             </div>
 
             {error && (

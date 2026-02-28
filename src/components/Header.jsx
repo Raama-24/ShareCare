@@ -12,7 +12,7 @@ export default function Header() {
   <div className="w-8 h-8 rounded-full bg-[#8BC34A] flex items-center justify-center">
     <Leaf className="w-5 h-5 text-white" />
   </div>
-  <span className="font-bold text-lg text-[#263238]">FoodShare</span>
+  <span className="font-bold text-lg text-[#263238]">ShareCare</span>
 </Link>
 
 

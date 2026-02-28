@@ -109,22 +109,22 @@ export default function PostDonation() {
 
           <div className="bg-white rounded-xl p-8 border border-border">
             <h1 className="text-3xl font-bold text-foreground mb-2">
-              Post Food Donation
+              Post Donation
             </h1>
             <p className="text-muted-foreground mb-8">
-              Share your surplus food with verified volunteers in your area
+              Share your surplus items with verified volunteers in your area
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Food Details */}
               <div className="border-b border-border pb-6">
                 <h2 className="text-lg font-semibold text-foreground mb-4">
-                  Food Details
+                  Details
                 </h2>
 
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    Food Name / Item *
+                     Name / Item *
                   </label>
                   <input
                     type="text"
